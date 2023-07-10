@@ -69,7 +69,7 @@ def game():
             
         else: 
             chances -= 1
-            wrong_letter.append(trial)
+            wrong_letters.append(trial)
 
         if "-" not in discover_letter:
             print('\nYou win! The word is: ', word)
