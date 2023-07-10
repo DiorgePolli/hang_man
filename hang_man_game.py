@@ -56,7 +56,7 @@ def game():
         print('Wrong letters:',''.join(wrong_letters))
     
     #try
-        trial = input('\nDigite uma letra: ').lower()
+        trial = input('\nType a letter: ').lower()
     
     #Condicional
     
